@@ -13,3 +13,20 @@ if(originalstring === reversestring){
     console.log("Its not a palindrome")
 }
 
+
+let input = "functIon";
+let count = 0;
+
+for (let i = 0; i < input.length; i++) {
+    switch (input[i].toLowerCase()) {
+        case "a":
+        case "e":
+        case "i":
+        case "o":
+        case "u":
+        count++;
+        break;
+    }
+}
+
+console.log(count);
